@@ -1,0 +1,9 @@
+discern_source_repo: git@github.com:edx/discern.git
+discern_dir: $app_base_dir/discern
+grader_dir: $app_base_dir/discern/examples/problem_grader
+grader_settings: problem_grader.settings
+discern_branch: dev
+nginx_listen_port: 80
+gunicorn_port: 7999
+grader_user: grader
+site_name: grader

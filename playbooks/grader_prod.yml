@@ -1,0 +1,6 @@
+# ansible-playbook -vvv --user=ubuntu  grader_prod.yml -i ./ec2.py  -c ssh
+- hosts:
+    - tag_Group_grader_prod
+  roles:
+    - grader
+  sudo: True
